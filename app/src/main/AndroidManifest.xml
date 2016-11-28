@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.theclockworks.ftcscorekeeper">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/new_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AboutActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GoalsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.GOALS" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NewGoalActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_GOAL" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ViewGoalsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_GOALS" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

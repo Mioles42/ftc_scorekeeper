@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FTC Scorekeeper</string>
+    <string name="test">Testing Button</string>
+    <string name="about_text">FTC Scorekeeper is a scouting tool for First Tech Challenge competitions and scrimmages. It can be used to score individual matches or to compare teams\' performance across several matches. It is a work in progress.</string>
+</resources>

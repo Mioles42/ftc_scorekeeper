@@ -4,6 +4,25 @@
     android:layout_height="match_parent"
     android:background="#bacdff">
 
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView4"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/flags" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="All Goals"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/navy"
+        android:textSize="24dp"
+        android:textIsSelectable="false"
+        android:layout_margin="10dp" />
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

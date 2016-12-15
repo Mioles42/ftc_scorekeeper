@@ -7,9 +7,9 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="30dp"
         android:columnCount="3"
-        android:rowCount="6">
+        android:rowCount="6"
+        android:layout_margin="30dp">
 
         <ImageView
             android:layout_width="120dp"
@@ -33,7 +33,8 @@
             android:layout_column="0"
             android:src="@drawable/whistle"
             android:layout_gravity="left"
-            android:layout_columnSpan="1"/>
+            android:layout_columnSpan="1"
+            android:onClick="toMatches" />
 
         <ImageView
             android:layout_width="100dp"
@@ -42,7 +43,8 @@
             android:layout_row="0"
             android:layout_column="2"
             android:src="@drawable/flag"
-            android:layout_gravity="right"/>
+            android:layout_gravity="right"
+            android:onClick="toGoals" />
 
         <TextView
             android:layout_width="100dp"
@@ -60,7 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="FTC Scorekeeper\n(v1.02)"
+            android:text="FTC Scorekeeper"
             android:id="@+id/main_land_logo_text"
             android:layout_row="3"
             android:layout_column="1"
@@ -89,7 +91,8 @@
             android:id="@+id/main_land_records"
             android:layout_row="4"
             android:layout_column="0"
-            android:src="@drawable/book" />
+            android:src="@drawable/book"
+            android:onClick="toRecords" />
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -97,7 +100,8 @@
             android:layout_row="4"
             android:layout_column="2"
             android:src="@drawable/question"
-            android:layout_gravity="right"/>
+            android:layout_gravity="right"
+            android:onClick="toAbout" />
 
         <TextView
             android:layout_width="100dp"
